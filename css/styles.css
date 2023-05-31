@@ -31,6 +31,11 @@ img {
   display: block;
 }
 
+.wrapper-header {
+  width: 1440px;
+  display: flex;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
