@@ -342,7 +342,6 @@ img {
 .foto-item {
   background: var(--main-text-color);
   width: calc((100% - 48px) / 3);
-  flex-wrap: wrap;
 }
 
 .portfolio-pictures {
@@ -363,14 +362,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  padding: 32px 16px;
 }
 
 .foto-border {
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 
 .button-text {
