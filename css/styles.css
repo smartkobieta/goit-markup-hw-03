@@ -93,7 +93,6 @@ img {
   display: flex;
   gap: 40px;
   max-width: 261px;
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -102,6 +101,7 @@ img {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-menu-link:is(:hover, :focus) {
@@ -135,9 +135,9 @@ img {
 
 /*?--------HERO-TITLO---------?*/
 
-.container-titlo {
-  padding: 188px 0;
+.hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-titlo {
