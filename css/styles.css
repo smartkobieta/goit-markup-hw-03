@@ -34,7 +34,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .visually-hidden {
@@ -49,11 +49,14 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/**----------------HEADER--------**/
+
+.header {
+}
 
 .header-container {
   display: flex;
   padding: 24px 0;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -104,7 +107,7 @@ img {
   color: #404bbf;
 }
 
-/**-------------------HERO--------**/
+/**-------------------ADRESS--------**/
 
 .header-adr {
   display: flex;
@@ -117,11 +120,6 @@ img {
   max-width: 344px;
   margin-left: 251px;
 }
-.header-adr-menu 
-/*.mail {
-  margin-right: 40px;
-  margin-left: 332px;
-}*/
 
 .adres-link {
   font-size: 16px;
@@ -133,6 +131,8 @@ img {
 .adres-link:is(:hover, :focus) {
   color: #404bbf;
 }
+
+/*?--------HERO-TITLO---------?*/
 
 .container-titlo {
   padding: 188px 0;
@@ -363,8 +363,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 
 .foto-border {
