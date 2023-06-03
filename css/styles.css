@@ -52,11 +52,11 @@ img {
 /**----------------HEADER--------**/
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
-  padding: 24px 0;
 }
 
 .header-logo {
@@ -93,6 +93,7 @@ img {
   display: flex;
   gap: 40px;
   max-width: 261px;
+  padding: 24px 0;
 }
 
 .header-menu-link {
