@@ -34,8 +34,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
 }
 
 .visually-hidden {
@@ -51,6 +50,12 @@ img {
   overflow: hidden;
 }
 
+.header-container {
+  display: flex;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -60,12 +65,6 @@ img {
   color: #4d5ae5;
   text-transform: uppercase;
   margin-right: 76px;
-}
-
-.header-container {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -91,10 +90,6 @@ img {
   display: flex;
   gap: 40px;
   max-width: 261px;
-}
-
-.header-container {
-  display: flex;
 }
 
 .header-menu-link {
@@ -139,12 +134,8 @@ img {
   color: #404bbf;
 }
 
-.hero {
-  padding-bottom: 120px;
-}
-
 .container-titlo {
-  padding: 188px 316px 188px 316px;
+  padding: 188px 0;
   background: #2e2f42;
 }
 
@@ -156,6 +147,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: auto;
   margin-bottom: 48px;
 }
 
@@ -184,8 +176,9 @@ img {
 /*?----------------ADVANTAGES----------?*/
 
 .advantages {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
+
 .advantages-menu {
   display: flex;
   gap: 24px;
@@ -230,6 +223,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--hero-text-color);
+  margin-bottom: 8px;
 }
 
 .result {
@@ -244,9 +238,9 @@ img {
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
-  padding-bottom: 72px;
   min-width: 323px;
   margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .our-team {
@@ -324,6 +318,11 @@ img {
   padding-right: 858px;
 }
 /**-----------------------------------PORTFOLIO------------------*/
+
+.section-portfolio {
+  padding: 96px 0 120px 0;
+}
+
 .portfolio-button {
   display: flex;
   justify-content: center;
@@ -338,7 +337,6 @@ img {
 }
 
 .foto-item {
-  display: flex;
   background: var(--main-text-color);
   width: calc((100%-48px) / 3);
   margin-bottom: 48px;
@@ -354,7 +352,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--hero-text-color);
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   padding-left: 16px;
 }
 
@@ -371,6 +369,7 @@ img {
 
 .foto-border {
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .button-text {
@@ -395,4 +394,5 @@ img {
   background-color: #404bbf;
   color: var(--main-text-color);
   cursor: pointer;
+  border: 1px solid transparent;
 }
